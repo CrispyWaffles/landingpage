@@ -4,89 +4,167 @@
 }
 header{
     background-color:mediumpurple;
+    padding: 2em 12em;
 }
-.button{
-    /*background-color: mediumslateblue;*/
+button{
+    background-color: skyblue;
     color:black;
-    font-size:18px
+    font-size:18px;
+    border-color:lightskyblue;
+    width:auto;
+    padding:2px;
+    margin:2px;
+    border-radius:10px;
 }
 
 /*Nav Bar*/
 
 .navbar{
-    /*background-color:mediumpurple;*/
+    background-color:mediumpurple;
     display:flex;
     justify-content:space-between;
     align-items:baseline;
     font-size:24px;
+    box-sizing: border-box;
 
 }
 .navbar ul{
     display:flex;
     gap: 1.5em;
-    /*background-color:mediumpurple;*/
+    background-color:mediumpurple;
     list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .logo{
     font-size:32px;
     font-weight: bold;
-    /*color: slateblue;*/
+    color: lightskyblue;
+    width:100px;
 }
 .image{
     display:flex;
     justify-content: right;
     align-items: right;
+    height:350px;
 }
 /* Welcome */
 
+
 .welcome{
     font-size:24px;
-    padding:7px;
+    padding:6em;
     display:flex;
     justify-content: center;
     align-items:center;
-    gap:2px;
+    gap:4em;
 }
-.button .secondary{
+.secondarybutton{
     display:flex;
-    justify-content:left;
-    align-items:left;
-    margin-left:5px
+    justify-content: center;
+    margin:5px;
+    border-radius:10px;
+    border:none;
+    width:auto;
+    padding:5px;
+    background-color: skyblue;
+}
+.rightnav{
+    flex: shrink 0;
+    width:45%;
 }
 .left{
+    display:flex;
     justify-content: left;
     align-items: left;
+    flex-direction:column;
+    gap:10px;
+
 }
 
 /* Main */
+.main h3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:48px;
+    font-weight: bolder;
+}
 .main{
-    Background-color:silver;
+    Background-color:white;
+    display:flex;
+    margin:auto;
+    flex-direction: column;
+    align-content:space-between;
+    justify-content: space-evenly;
+    width:75%;
+    padding:5em;
+}
+.cardbox{
+    display:flex;
+    justify-content: space-around;
+}
+
+.img{
+    width:250px;
+    height:auto;
 }
 
 /* Quote */
 
 .quote{
-    background-color:grey;
+    background-color:mediumpurple;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction:column;
+    padding:8em 16em;
+}
+.quote p{
+    font-size:32px;
+    justify-content: center;
+    font-weight:bolder;
+    font-style:italic;
+}
+.quote strong{
+    font-size:48px;
+    font-weight:bolder;
+    margin-left:45%;
+    -webkit-margin-bottom-collapse: collapse;
 }
 
 /* Sign Up */
 
 .signup{
-    background-color:yellow;
+    background-color:mediumpurple;
     display:flex;
     justify-content: center;
     align-items: center;
+    padding:5em 15em;
 
+}
+.box{
+    background-color: mediumslateblue;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:2em;
+    width:100%;
+    border-radius:20px;
+}
+.signup strong{
+    font-size:32px;
 }
 
 /* Footer */
 
 .footer{
-    background-color:mediumpurple;
+    background-color:lightskyblue;
     display:flex;
     justify-content: center;
     align-items: center;
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    padding:1em;
 }
