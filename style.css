@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color:mediumpurple;
+}
+.button{
+    /*background-color: mediumslateblue;*/
+    color:black;
+    font-size:18px
+}
+
+/*Nav Bar*/
+
+.navbar{
+    /*background-color:mediumpurple;*/
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    font-size:24px;
+
+}
+.navbar ul{
+    display:flex;
+    gap: 1.5em;
+    /*background-color:mediumpurple;*/
+    list-style-type: none;
+}
+.logo{
+    font-size:32px;
+    font-weight: bold;
+    /*color: slateblue;*/
+}
+.image{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+}
+/* Welcome */
+
+.welcome{
+    font-size:24px;
+    padding:7px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:2px;
+}
+.button .secondary{
+    display:flex;
+    justify-content:left;
+    align-items:left;
+    margin-left:5px
+}
+.left{
+    justify-content: left;
+    align-items: left;
+}
+
+/* Main */
+.main{
+    Background-color:silver;
+}
+
+/* Quote */
+
+.quote{
+    background-color:grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sign Up */
+
+.signup{
+    background-color:yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Footer */
+
+.footer{
+    background-color:mediumpurple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
